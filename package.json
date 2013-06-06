@@ -1,0 +1,26 @@
+{
+  "name": "command9",
+  "version": "0.1.0",
+  "description": "A wrapper around pkgcloud to deploy onto Joyent",
+  "main": "command9.js",
+  "dependencies": {
+    "pkgcloud": "~0.8.1",
+    "ssh2": "~0.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/No9/command9"
+  },
+  "keywords": [
+    "pkgcloud",
+    "deployment"
+  ],
+  "author": "Anton Whalley",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "09db0be782f921d1f11d727b9aa120aa527922aa"
+}
